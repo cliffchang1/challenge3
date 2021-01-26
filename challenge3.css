@@ -1,0 +1,16 @@
+.outer-board{
+    display: flex;
+    background-color: darkblue;
+    width: 1000px;
+    height: 500px;
+}
+.timer{
+    display: flex;
+    background-color: black;
+    margin-left: 40%;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    color: white;
+    border: white 20px;
+}
