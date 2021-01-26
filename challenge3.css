@@ -4,13 +4,42 @@
     width: 1000px;
     height: 500px;
 }
+.home{
+    font-size: xx-large;
+    color: white;
+    margin-left: 45%;
+}
 .timer{
     display: flex;
     background-color: black;
-    margin-left: 40%;
     width: 100px;
     height: 50px;
     justify-content: center;
     color: white;
-    border: white 20px;
+    font-size: 35px;
+    margin-left: 65%;
+    border: white 15px;
+}
+.visitors{
+    font-size: xx-large;
+    color: white;
+    margin-left: 45%;   
+}
+.first-row{
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+}
+.second-row{
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+}
+.home-score{
+    background-color: black;
+    display: flex;
+    width: 80px;
+    height: 40px;
 }
