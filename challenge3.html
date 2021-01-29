@@ -15,7 +15,37 @@
         </div>
         <div class="second-row">
             <div class="home-score"></div>
+            <div class="period">Period</div>
+            <div class="period-block"></div>
+            <div class="guest-score"></div>
         </div>
+        <div class="third-row">
+            <div class="penalty-1">Penalty</div>
+            <div class="penalty-2">Penalty</div>
+        </div>
+        <div class="forth-row">
+            <div class="player-1"></div>
+            <div class="player-2"></div>
+        </div>
+        <div class="big-board">
+            <div class="home-board">
+                <button onclick="addhomescore()">add home score</button>
+                <button onclick="deducthomescore()">deduct home score</button>
+                <button onclick="addhomepenalty()">Add home Penalty</button>
+                <button onclick="deletehomepenalty()">delete home penalty</button>
+            </div>
+            <div class="period-board">
+                <button onclick="addperiod()">add period</button>
+                <button onclick="deductperiod()">deduct period</button>
+            </div>
+            <div class="visitor-board">
+                <button onclick="addvisitorscore()">add visitor score</button>
+                <button onclick="deductvisitorscore()">deduct visitor score</button>
+                <button onclick="addvisitorpenalty()">Add Visitor Penalty</button>
+                <button onclick="deletevisitorpenalty()">delete visitor penalty</button>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
