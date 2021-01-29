@@ -118,6 +118,7 @@
     flex-direction: column;
     width: 33%;
     margin-left: 17%;
+    margin-top: 5px;
 }
 .period-board{
     display: flex;
