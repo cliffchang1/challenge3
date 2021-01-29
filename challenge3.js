@@ -33,8 +33,8 @@ function addvisitorpenalty(){
 function deletevisitorpenalty(){
     document.querySelector(".player-2").innerHTML = ""
 }
-function addperiod(){
-    period = period + 1
+function addperiod(){if(period < 3)
+    {period = period + 1}
     document.querySelector(".period-block").innerHTML = period
 }
 function deductperiod(){if(period > 1)
